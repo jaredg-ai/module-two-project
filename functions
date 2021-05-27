@@ -35,16 +35,14 @@ function greaterThanfive(number){
 */
 
 //CODE HERE
-function findZWords('word', z){
+
+function findZWords(word){
   if (z === 'Z'){
-    console.log('the name begins with Z'){
-      else{
+    console.log('the name begins with Z')
+    } else {
         console.log('the name does not begin with Z')
       }
     }
-  }
-}
-
 //////////////////PROBLEM 4////////////////////
 /*
   Create a function called 'iLove' that takes in two string parameters, 'name' and 'love'. 
