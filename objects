@@ -51,13 +51,15 @@ const me = {
 */
 
 //CODE HERE
-let carFactory(make, model, year){
-  make = 'Doge',
-  model = "avenger",
-  year = 2008,
-  isNew = 'true'
-} if (year > 2018) {
-  console.log(carFactory['isNew'])
+function carFactory(make, model, year) {
+  let car = {
+  make: make,
+  model: model,
+  year: year
+  }
+} if (car.year > 2018) {
+  car.isNew = 'true'
 } else {
-  console.log(carFactory[''])
+  car.isNew = 'false'
 }
+carFactory('Doge', 'avenger', 2008)
