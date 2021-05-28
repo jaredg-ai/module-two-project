@@ -14,19 +14,15 @@
 */
 
 //CODE HERE
-let me ={
-  firstName = "Jared",
-  state = "utah",
-  age = "26",
-  constructor(firstName, state){
-    this.firstName = name
-    this.state = state
-  }
-    greeter(){
-      console.log('Hello! My', this.name, 'and I live in', this.state)
+const me = {
+  firstName: "Jared",
+  state: "utah",
+  age: 26,
+};
+  function greeter(firstName, state){
+      console.log('Hello! My name is', me.firstName, 'and I live in', me.state)
     }
-}
-/// i feel like this close but not sure. cant get it to work. come back later
+ greeter()
 
 
 
