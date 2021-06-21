@@ -55,9 +55,9 @@ findZWords('Zeebra')
 
 //CODE HERE
 function iLove(name, love) {
-  let name = "Jared"
-  let love = "food"
+  name = 'jared',
+  love = 'food',
   console.log(`${name} loves ${love}.`)
 }
 
-/// i feel like its close but its still not working
+iLove()
